@@ -95,6 +95,7 @@ section h1 span{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-right: 7%;
 }
 
 .cfa a{
@@ -120,7 +121,8 @@ section h1 span{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #f5f5dc;
+    background-image: url(images/desktop-with-notebook-photo-camera_23-2148128817.webp);
+    background-size: cover;
     height: 100vh;
     width: 100%;
     padding-top: 7vh;
@@ -140,8 +142,8 @@ section h1 span{
     margin: 14px 0px 2px 0px;
 }
 
-.about-me p a{
+.about-me p a,.about-me .about a{
     text-decoration: none;
-    color: #25191f;
-    font-weight: lighter;
+    color: #050d15;
+    font-weight:bold;
 }
