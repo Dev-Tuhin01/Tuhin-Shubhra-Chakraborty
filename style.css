@@ -104,10 +104,10 @@ section h1 span{
 
 .cfa a .btn{
     color: #000;
-    
     margin: 40%;
     width: 150%;
     height: 7vh;
+    border-radius: 15px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -197,6 +197,7 @@ section h1 span{
     flex-direction: row;
     justify-content:space-evenly;
     padding-right: 20%;
+    margin-top: 3%;
 }
 
 .portfolio .more-projects{
