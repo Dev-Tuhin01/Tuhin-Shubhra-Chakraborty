@@ -210,3 +210,58 @@ section h1 span{
 .portfolio ,.more-projects a{
     color: #f5f5dc;
 }
+
+.contacts{
+    width: 100%;
+    height: 100vh;
+    padding-top: 10vh;
+    background: linear-gradient(0deg,rgba(0,0,0,0.53),rgba(0,0,0,0.5)), url(images/a2Pb7n-2335255899.jpg);
+    background-size: cover;
+}
+
+.contacts fieldset legend{
+    color: #f5f5dc;
+    padding-left: 1vw;
+    
+}
+.contacts,.contacts fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.contacts fieldset{
+    width: 50vw;
+    height: 80vh;
+    justify-content: center;
+    border: 1px solid #f5f5dc;
+    border-radius: 5vh;
+    
+}
+
+input,textarea{
+    margin-bottom: 10px;
+    width: 70%;
+    height: 8vh;
+    border-radius: 1vh;
+}
+
+textarea{
+    height: 15vh;
+}
+
+ fieldset .submit{
+    height: 8vh;
+    width: 30%;
+    margin: 10px 0;
+    background-color: #f5f5dc;
+    border: 1.5px solid #000;
+    border-radius: 10px;
+}
+
+.submit:hover{
+    color: #000;
+    box-shadow: 2px 2px 10px #050d15;
+}
+
