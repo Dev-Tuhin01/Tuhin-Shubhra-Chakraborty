@@ -186,6 +186,8 @@ section h1 span{
 }
 
 .project a{
+    display: flex;
+    font-size: small;
     text-decoration: none;
     color: #ffffff;
     text-align: center;
