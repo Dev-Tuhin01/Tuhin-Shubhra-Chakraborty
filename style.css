@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+*:focus{
+    outline: none;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -26,7 +30,7 @@ nav{
     box-shadow: 2px 0px 5px #000;
 }
 nav .title{
-    height: 7vh;
+    height: 30px;
     display: flex;
     grid-column-start: 1;
     grid-column-end: 6;
@@ -224,11 +228,59 @@ section h1 span{
 .contacts .form,.information{
     width: 50%;
     height: 100%;
-    
+    padding: 5px 7vw;
 }
-.form{
-    border: 1px solid sienna;
+
+.contacts{
+
 }
-.information{
-    border: 1px solid moccasin;
+
+.contacts h2{
+    color: #f5f5dc;
+    padding: 10px;
+}
+
+.contacts p{
+    color: #ffffff;
+    padding: 10px;
+}
+
+.information .socials a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.information .address,.socials{
+    margin: 0 0 15vh 0;
+}
+
+.form .contact-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contact-form input,textarea{
+    margin: 5px;
+    border: none;
+    padding: 7px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #050d1588;
+    color: #ffffff;
+}
+
+.contact-form input:focus,textarea:focus{
+    background-color: #050d15;
+}
+
+.contact-form #submit{
+    background-color: #f5f5dc;
+    border: none;
+    border-radius:  50px;
+    width: 50%;
+    height: 4vh;
+    color: #25191f;
+    margin: 20px;
 }
