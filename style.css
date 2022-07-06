@@ -52,6 +52,7 @@ nav button{
 }
 nav a:hover{
     background-color:antiquewhite;;
+    color: #ffffff;
 }
 
 button:hover{
@@ -214,9 +215,20 @@ section h1 span{
 .contacts{
     width: 100%;
     height: 100vh;
-    padding-top: 10vh;
+    padding-top: 8vh;
     background: linear-gradient(0deg,rgba(0,0,0,0.53),rgba(0,0,0,0.5)), url(images/a2Pb7n-2335255899.jpg);
     background-size: cover;
+    display: flex;
 }
 
-
+.contacts .form,.information{
+    width: 50%;
+    height: 100%;
+    
+}
+.form{
+    border: 1px solid sienna;
+}
+.information{
+    border: 1px solid moccasin;
+}
