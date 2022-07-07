@@ -30,11 +30,11 @@ nav{
     box-shadow: 2px 0px 5px #000;
 }
 nav .title{
-    height: 30px;
+    height: 36px;
     display: flex;
     grid-column-start: 1;
     grid-column-end: 6;
-    font-size: 36px;
+    font-size: 2.2vw;
     justify-content: center;
 }
 
@@ -50,13 +50,18 @@ nav a {
     cursor:help;
 }
 
+nav .menu{
+    display: none;
+    
+}
+
 nav button{
     background-color: #f5f5dc;
     border: none;
 }
 nav a:hover{
     background-color:antiquewhite;;
-    color: #ffffff;
+    color: #050d15;
 }
 
 button:hover{
@@ -76,8 +81,8 @@ section{
 }
 
 section img{
-    width: 15%;
-    height: 30%;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
 }
 
@@ -98,7 +103,7 @@ section h1 span{
     width: 40%;
     height: 30%;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     margin-right: 7%;
 }
@@ -172,7 +177,7 @@ section h1 span{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+        
 }
 
 .projects .project{
@@ -196,6 +201,7 @@ section h1 span{
     text-decoration: none;
     color: #ffffff;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .visit{
@@ -280,4 +286,59 @@ section h1 span{
     height: 4vh;
     color: #25191f;
     margin: 20px;
+}
+
+
+
+@media screen and (max-width:820px) {
+    body{
+        background-color: teal;
+    }
+    nav{
+        width: 100vw;
+        grid-template-columns: repeat(5,1fr);
+    }
+    nav .title{
+        font-size: 20px;
+        grid-column-end: 4;
+        display: flex;
+        align-items:center;
+    }
+
+    nav a{
+        display: none;
+    }
+    nav .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section,.about-me{
+        height: 85vh;
+        width: 100%;
+    }
+
+    section img{
+        height: 100px;
+        width: 100px;
+    }
+    
+    section h3{
+        font-size: 15px;
+    }
+
+    .cfa{
+        width: 130%;
+        justify-content: space-evenly;
+        padding-right: 100px;
+    }
+
+    .about-me{
+        padding-left: 5px;
+        word-wrap: break-word;
+    }
+    .about-me .about{
+        width: 90%;
+    }
 }
