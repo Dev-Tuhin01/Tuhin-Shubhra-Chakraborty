@@ -60,7 +60,7 @@ nav button{
     border: none;
 }
 nav a:hover{
-    background-color:antiquewhite;;
+    background-color:antiquewhite;
     color: #050d15;
 }
 
@@ -69,7 +69,7 @@ button:hover{
 }
 
 section{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url(images/695931.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url(images/section-background.jpg);
     height: 93vh;
     width: 100%;
     margin-top: 7vh;
@@ -84,6 +84,7 @@ section img{
     width: 180px;
     height: 180px;
     border-radius: 50%;
+    margin-right: 20px;
 }
 
 section img:hover{
@@ -131,7 +132,7 @@ section h1 span{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background:linear-gradient(0deg,rgba(0,0,0,0.023),rgba(0,0,0,0.023)), url(images/desktop-with-notebook-photo-camera_23-2148128817.webp);
+    background:linear-gradient(0deg,rgba(0,0,0,0.023),rgba(0,0,0,0.023)), url(images/aboutme-background.webp);
     background-size: cover;
     height: 107vh;
     width: 100%;
@@ -165,7 +166,7 @@ section h1 span{
 .portfolio{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)), url(images/th-2287850242.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)), url(images/portfolio-background.jpg);
     background-size: cover;
     padding-top: 7vh;
 }
@@ -226,7 +227,7 @@ section h1 span{
     width: 100%;
     height: 100vh;
     padding-top: 8vh;
-    background: linear-gradient(0deg,rgba(0,0,0,0.53),rgba(0,0,0,0.5)), url(images/a2Pb7n-2335255899.jpg);
+    background: linear-gradient(0deg,rgba(0,0,0,0.53),rgba(0,0,0,0.5)), url(images/contact-background.jpg);
     background-size: cover;
     display: flex;
 }
