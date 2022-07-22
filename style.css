@@ -132,14 +132,16 @@ section h1 span{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background:linear-gradient(0deg,rgba(0,0,0,0.023),rgba(0,0,0,0.023)), url(images/aboutme-background.webp);
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/aboutme-background.webp);
     background-size: cover;
     height: 107vh;
     width: 100%;
     padding-top: 7vh;
+    color: #ffffff;
 }
 .about-me .about{
-    width: 30%;
+    width: 50%;
+    height: 60%;
     box-shadow: 5px 2px 10px #050d15;
 }
 
