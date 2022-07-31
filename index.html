@@ -22,7 +22,7 @@
             <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
           </svg>
         </div></a>
-        <button id="download-resume" title="Download my resume for official usage">Resume</button>
+        <button id="download-resume" title="Download my resume for official usage" onclick="window.location = 'documents/Resume2022-07(Unfinshed).pdf'">Resume</button>
     </nav>
     <section>
         <img src="images/profile-image.jpeg" alt="" class="profile-image">
@@ -150,12 +150,12 @@
         <div class="form">
             <h2>Just drop a Hello !</h2>
             <p>Let us start a conversation</p>
-            <form action="#" method="post" class="contact-form">
+            <form onsubmit="sendemail(); /*reset()*/; return false" class="contact-form">
                 <input type="text" name="client-name" id="client-name" autocomplete="off" placeholder="enter your name here">
-                <input type="text" name="company-name" id="company-nam" autocomplete="off" placeholder="enter your company name here">
+                <input type="text" name="company-name" id="company-name" autocomplete="off" placeholder="enter your company name here">
                 <input type="email" name="email" id="email" autocomplete="off" placeholder="enter your email here">
                 <textarea name="content" id="content" cols="30" rows="10" placeholder="Enter your text here"></textarea>
-                <button type="button" class="submit" id="submit">Submit</button>
+                <button type="submit" class="submit" id="submit">Submit</button>
             </form>
         </div>
         <div class="information">
@@ -196,6 +196,7 @@
             </div>
         </div>
     </div>
-<script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
